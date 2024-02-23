@@ -1,14 +1,11 @@
 .holder{
-	display:flex;
-	flex-flow:row wrap;
-	width:100px;
-	height:100px;
-	border:solid gray;
+	display: grid;
+	grid-template-columns: repeat(2,50px);
+	grid-template-rows: repeat(2,50px);
+	background-color: red;
 }
 
 .item{
-	border:none solid blue;
-	width:50px;
-	height:50px;
+	background-color: blue;
 }
 /* Your CSS Code here. */
